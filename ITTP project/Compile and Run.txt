@@ -1,0 +1,8 @@
+COMPILE:
+
+javac -cp ".;bson-4.11.0.jar;mongodb-driver-core-4.11.0.jar;mongodb-driver-sync-4.11.0.jar" InternalTechTalkPortal.java
+
+
+RUN:
+
+java -cp ".;mongodb-driver-sync-4.11.0.jar;mongodb-driver-core-4.11.0.jar;bson-4.11.0.jar;slf4j-api-2.0.9.jar;slf4j-nop-2.0.9.jar" InternalTechTalkPortal
